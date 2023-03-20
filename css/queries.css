@@ -1,0 +1,44 @@
+@media (max-width: 850px) {
+  .kanban {
+    flex-direction: column;
+    width: 650px;
+  }
+
+  .kanban__column {
+    margin-bottom: 30px;
+  }
+
+  .kanban__column:not(:last-child) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .kanban {
+    width: 500px;
+  }
+}
+
+@media (max-width: 565px) {
+  .kanban {
+    width: 400px;
+  }
+}
+
+@media (max-width: 465px) {
+  .kanban {
+    width: 300px;
+  }
+}
+
+@media (max-width: 365px) {
+  .kanban {
+    width: 250px;
+  }
+}
+
+@media (max-width: 315px) {
+  .kanban {
+    width: 200px;
+  }
+}
